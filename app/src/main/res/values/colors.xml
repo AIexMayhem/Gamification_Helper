@@ -27,4 +27,5 @@
     <color name="text_shadow">#7F000000</color>
     <color name="text_shadow_white">#FFFFFF</color>
     <color name="dark_buttons">#51ABC3</color>
+    <color name="dolor">#335836</color>
 </resources>
