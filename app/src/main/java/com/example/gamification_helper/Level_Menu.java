@@ -62,11 +62,11 @@ public class Level_Menu extends AppCompatActivity {
     private void backGroundSetter(LinearLayout currentLevel) {
         for (LinearLayout curLayout : level_list) {
             if (curLayout == currentLevel) {
-                currentLevel.setBackgroundResource(R.drawable.round_back_white_stroke10);
+                currentLevel.setBackgroundResource(R.drawable.round_other_with_border);
                 chosenLevel = (int) currentLevel.getTag();
             }
             else
-                curLayout.setBackgroundResource(R.drawable.round_back_red);
+                curLayout.setBackgroundResource(R.drawable.round_other);
         }
     }
 

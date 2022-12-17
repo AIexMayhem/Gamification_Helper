@@ -34,7 +34,7 @@ public class Achievments_Activity extends AppCompatActivity {
 
         for (int i = 0; i < listOfAchieve.length; i++) {
             if (DataBaseGetter.isUnlockedAchievement(i) == 1)
-                listOfAchieve[i].setText("Unlocked");
+                listOfAchieve[i].setText("Получено");
         }
     }
 

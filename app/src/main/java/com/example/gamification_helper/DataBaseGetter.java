@@ -35,10 +35,10 @@ public class DataBaseGetter {
         db.execSQL("INSERT OR IGNORE INTO achievements VALUES " +
                 "('Kill monsters','done thx', 0, 1)," +
                 "('Do household chores', 'Must do!', 1, 0)," +
-                "('3', 'Must do!', 2, 0)," +
-                "('4', 'Must do!', 3, 0)," +
-                "('5', 'Must do!', 4, 0)," +
-                "('6', 'Must do!', 5, 0);"
+                "('Do something', 'Must do!', 2, 0)," +
+                "('Do other thing', 'Must do!', 3, 0)," +
+                "('Go outdoors', 'Must do!', 4, 0)," +
+                "('Go play', 'Must do!', 5, 0);"
         );
         updateUsers();
         updateAchievements();
